@@ -56,3 +56,102 @@
   </footer>
 </body>
 </html>
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+#header {
+  background: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+#logo a {
+  font-size: 25px;
+  font-weight: bold;
+  color:white;
+  text-decoration: none;
+}
+#search-box {
+  flex: 1;
+  margin: 20px;
+  display: flex;
+}
+#search-box input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+}
+#search-box button {
+  padding: 10px;
+  background-color: #febd69;
+  border: none;
+  cursor: pointer;
+}
+#cart {
+  font-size: 1.1rem;
+}
+#nav {
+  background: #232f3e;
+  padding: 10px;
+  display: flex;
+  gap: 15px;
+}
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+# Ads{
+  width: 20%;
+  max-height: 200px;
+  object-fit: static;
+  position: contain;
+}
+#products {
+  padding: 20px;
+}
+#products h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-view {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#product {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+#product img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+#product h3 {
+  font-size: 1rem;
+  margin: 10px 0 5px;
+}
+#product p {
+  color: green;
+  font-weight: bold;
+}
+#footer {
+  background: #131921;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
